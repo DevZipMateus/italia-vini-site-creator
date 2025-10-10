@@ -15,7 +15,7 @@ const Hero = () => {
           alt="Vinhedos da Toscana" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/60 to-primary/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/50 via-primary/40 to-primary/60" />
       </div>
 
       {/* Content */}
