@@ -1,4 +1,4 @@
-import unioNeroWine from "@/assets/unio-nero-wine.jpg";
+import unioNeroWine from "@/assets/unio-nero-wine.png";
 
 const About = () => {
   return (
