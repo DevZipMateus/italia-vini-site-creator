@@ -13,8 +13,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "E-mail",
-      content: "CHIAVACCI48@GMAIL.COM",
-      link: "mailto:CHIAVACCI48@GMAIL.COM"
+      content: "chiavacci48@gmail.com",
+      link: "mailto:chiavacci48@gmail.com"
     },
     {
       icon: MapPin,
