@@ -23,7 +23,7 @@ const About = () => {
           </div>
 
           <div className="animate-scale-in flex justify-center">
-            <div className="relative rounded-lg overflow-hidden shadow-elegant max-w-sm">
+            <div className="relative rounded-lg overflow-hidden shadow-elegant max-w-md">
               <img 
                 src={unioNeroWine} 
                 alt="UNIO NERO DI TROIA - PRIMITIVO PUGLIA IGT 2023 - PODERE 29" 
