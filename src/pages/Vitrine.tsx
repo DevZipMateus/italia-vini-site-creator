@@ -6,19 +6,16 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const Vitrine = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
+  const footerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Remove rolagem do body nesta página
-    document.body.style.overflow = 'hidden';
-    document.body.style.margin = '0';
-    
     const ajustarIframe = () => {
-      if (!iframeRef.current || !headerRef.current) return;
+      if (!iframeRef.current || !headerRef.current || !footerRef.current) return;
 
       const alturaHeader = headerRef.current.offsetHeight;
+      const alturaFooter = footerRef.current.offsetHeight;
       
-      // Iframe ocupa 100vh menos apenas o header
-      iframeRef.current.style.height = `calc(100vh - ${alturaHeader}px)`;
+      iframeRef.current.style.height = `calc(100vh - ${alturaHeader}px - ${alturaFooter}px)`;
     };
 
     // Executa o ajuste
@@ -30,10 +27,8 @@ const Vitrine = () => {
     // Recalcula após tudo carregar
     window.addEventListener('load', ajustarIframe);
     
-    // Cleanup - restaura o overflow ao sair da página
+    // Cleanup
     return () => {
-      document.body.style.overflow = '';
-      document.body.style.margin = '';
       window.removeEventListener('resize', ajustarIframe);
       window.removeEventListener('load', ajustarIframe);
     };
@@ -59,6 +54,10 @@ const Vitrine = () => {
           className="w-full border-0 block"
           title="Vitrine de Produtos ITALIA VINI"
         />
+        
+        <div ref={footerRef} className="h-0">
+          {/* Footer invisível para o badge do MonteSite */}
+        </div>
       </div>
       
       <WhatsAppButton />
