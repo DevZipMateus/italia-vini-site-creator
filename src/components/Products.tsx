@@ -1,6 +1,7 @@
 import { Wine, Sparkles, Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import wineCellarImage from "@/assets/wine-cellar.jpg";
 
 const Products = () => {
@@ -77,9 +78,9 @@ const Products = () => {
               className="mt-8 bg-primary hover:bg-primary-glow text-primary-foreground font-semibold shadow-elegant"
               asChild
             >
-              <a href="https://wa.me/5511996489994" target="_blank" rel="noopener noreferrer">
+              <Link to="/vitrine">
                 Conheça nossa seleção
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
