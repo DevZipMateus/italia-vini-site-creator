@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet";
 import Header from "@/components/Header";
-import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Vitrine = () => {
   return (
@@ -12,25 +11,15 @@ const Vitrine = () => {
         <meta property="og:description" content="Explore nossa seleção completa de vinhos italianos autênticos e exclusivos." />
       </Helmet>
       
-      <div className="fixed inset-0 overflow-hidden">
+      <div className="min-h-screen">
         <Header />
-        <main 
-          className="absolute overflow-hidden"
-          style={{ 
-            top: '80px',
-            left: 0,
-            right: 0,
-            bottom: 0,
-            height: 'calc(100vh - 80px)'
-          }}
-        >
+        <main className="pt-20">
           <iframe 
             src="https://v4.egestor.com.br/vitrine/?s=italiavini " 
-            className="w-full h-full border-0"
+            style={{ width: '100%', height: '800px', border: 'none' }}
             title="Vitrine de Produtos ITALIA VINI"
           />
         </main>
-        <WhatsAppButton />
       </div>
     </>
   );
