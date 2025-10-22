@@ -6,16 +6,34 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const Vitrine = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
-  const footerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Previne scroll na página
+    document.body.style.overflow = 'hidden';
+    
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
 
   useEffect(() => {
     const ajustarIframe = () => {
-      if (!iframeRef.current || !headerRef.current || !footerRef.current) return;
+      if (!iframeRef.current || !headerRef.current) return;
 
-      const alturaHeader = headerRef.current.offsetHeight;
-      const alturaFooter = footerRef.current.offsetHeight;
+      // Pega a altura real da viewport em pixels
+      const alturaViewport = window.innerHeight;
       
-      iframeRef.current.style.height = `calc(100vh - ${alturaHeader}px - ${alturaFooter}px)`;
+      // Pega a altura real do header
+      const alturaHeader = headerRef.current.offsetHeight;
+      
+      // Altura fixa do badge MonteSite (inserido dinamicamente no iframe)
+      const alturaBadgeMonteSite = 63;
+      
+      // Calcula a altura exata em pixels
+      const alturaIframe = alturaViewport - alturaHeader - alturaBadgeMonteSite;
+      
+      // Aplica em pixels
+      iframeRef.current.style.height = `${alturaIframe}px`;
     };
 
     // Executa o ajuste
@@ -54,10 +72,6 @@ const Vitrine = () => {
           className="w-full border-0 block"
           title="Vitrine de Produtos ITALIA VINI"
         />
-        
-        <div ref={footerRef} className="h-0">
-          {/* Footer invisível para o badge do MonteSite */}
-        </div>
       </div>
       
       <WhatsAppButton />
