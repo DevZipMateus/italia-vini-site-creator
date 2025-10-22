@@ -22,12 +22,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className="animate-scale-in">
-            <div className="relative rounded-lg overflow-hidden shadow-elegant">
+          <div className="animate-scale-in flex justify-center">
+            <div className="relative rounded-lg overflow-hidden shadow-elegant max-w-sm">
               <img 
                 src={unioNeroWine} 
                 alt="UNIO NERO DI TROIA - PRIMITIVO PUGLIA IGT 2023 - PODERE 29" 
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
