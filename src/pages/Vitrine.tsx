@@ -11,9 +11,15 @@ const Vitrine = () => {
         <meta property="og:description" content="Explore nossa seleção completa de vinhos italianos autênticos e exclusivos." />
       </Helmet>
       
-      <div className="fixed inset-0 overflow-hidden flex flex-col">
+      <div className="overflow-hidden">
         <Header />
-        <main className="flex-1 overflow-hidden w-full">
+        <main 
+          className="overflow-hidden"
+          style={{ 
+            height: 'calc(100vh - 80px)', 
+            marginTop: '80px' 
+          }}
+        >
           <iframe 
             src="https://v4.egestor.com.br/vitrine/?s=italiavini " 
             className="w-full h-full border-0"
