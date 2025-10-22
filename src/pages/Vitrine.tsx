@@ -12,12 +12,12 @@ const Vitrine = () => {
         <meta property="og:description" content="Explore nossa seleção completa de vinhos italianos autênticos e exclusivos." />
       </Helmet>
       
-      <div className="flex flex-col h-screen">
-        <header className="flex-shrink-0">
-          <Header />
-        </header>
+      <div className="flex flex-col h-screen overflow-hidden">
+        <Header />
         
-        <main className="flex-1 w-full overflow-hidden pt-20">
+        <div className="h-20 flex-shrink-0"></div>
+        
+        <main className="flex-1 w-full overflow-hidden">
           <iframe 
             src="https://v4.egestor.com.br/vitrine/?s=italiavini " 
             className="w-full h-full border-0"
