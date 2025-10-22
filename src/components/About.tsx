@@ -1,4 +1,4 @@
-import wineSelectionImage from "@/assets/wine-selection.jpg";
+import unioNeroWine from "@/assets/unio-nero-wine.jpg";
 
 const About = () => {
   return (
@@ -25,8 +25,8 @@ const About = () => {
           <div className="animate-scale-in">
             <div className="relative rounded-lg overflow-hidden shadow-elegant">
               <img 
-                src={wineSelectionImage} 
-                alt="Seleção de vinhos italianos" 
+                src={unioNeroWine} 
+                alt="UNIO NERO DI TROIA - PRIMITIVO PUGLIA IGT 2023 - PODERE 29" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
