@@ -14,7 +14,7 @@ const About = () => {
                 O fundador da Italia Vini, <strong className="text-primary">Professor Andrea Chiavacci</strong>, é conhecido e respeitado pelos seus eventos que conjugam a cultura italiana com a degustação de vinhos italianos.
               </p>
               <p className="text-lg">
-                A partir da interação com os participantes desses eventos e com os alunos, surgiu a ideia de selecionar dos melhores importadores de produtores boutique de todas as regiões italianas, vinhos de excelente custo/benefício, respeitando sempre uma regra: <strong className="text-primary">somente são oferecidos vinhos selecionados e experimentados pessoalmente</strong>, e que correspondem a um rígido critério de qualidade.
+                A partir da interação com os participantes desses eventos e com os alunos, surgiu a ideia de selecionar os melhores importadores de produtores boutique de todas as regiões italianas, vinhos de excelente custo/benefício, respeitando sempre uma regra: <strong className="text-primary">somente são oferecidos vinhos selecionados e experimentados pessoalmente</strong>, e que correspondem a um rígido critério de qualidade.
               </p>
               <p className="text-lg">
                 Cada rótulo é escolhido com cuidado e paixão, valorizando a tradição, a qualidade e a diversidade das regiões vinícolas da Itália, sempre guiados pela ideia de que o melhor vinho é aquele que cada cliente aprecia.
