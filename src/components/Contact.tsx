@@ -17,11 +17,6 @@ const Contact = () => {
       link: "mailto:chiavacci48@gmail.com"
     },
     {
-      icon: MapPin,
-      title: "Endereço",
-      content: "Rua Brasilio Machado, 217 - Sala 91\nCEP 01230-010 - São Paulo, SP"
-    },
-    {
       icon: Clock,
       title: "Horário de funcionamento",
       content: "Segunda a Domingo\ndas 8h às 22h"
