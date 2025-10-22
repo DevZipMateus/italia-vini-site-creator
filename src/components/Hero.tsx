@@ -25,7 +25,7 @@ const Hero = () => {
             ITALIA VINI
           </h1>
           <h2 className="text-xl md:text-2xl text-primary-foreground/95 mb-8 font-light max-w-3xl mx-auto text-balance">
-            Vinhos italianos selecionados diretamente da Toscana para proporcionar uma experiência autêntica e acessível da verdadeira cultura do vinho italiano
+            Solo e exclusivamente vinhos italianos selecionados para proporcionar uma experiência autêntica e acessível da verdadeira cultura do vinho de todas as regiões da Itália
           </h2>
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-12 font-serif italic">
             "O melhor vinho é aquele que você gosta"
