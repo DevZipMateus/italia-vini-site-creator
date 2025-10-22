@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import Header from "@/components/Header";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Vitrine = () => {
   return (
@@ -29,6 +30,7 @@ const Vitrine = () => {
             title="Vitrine de Produtos ITALIA VINI"
           />
         </main>
+        <WhatsAppButton />
       </div>
     </>
   );
