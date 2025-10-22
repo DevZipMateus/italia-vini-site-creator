@@ -25,10 +25,12 @@ const Vitrine = () => {
           />
         </main>
         
-        <footer className="flex-shrink-0">
-          <WhatsAppButton />
+        <footer className="flex-shrink-0 h-16">
+          {/* Espaço reservado para o badge do MonteSite */}
         </footer>
       </div>
+      
+      <WhatsAppButton />
     </>
   );
 };
