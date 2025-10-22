@@ -62,9 +62,9 @@ const Vitrine = () => {
       </Helmet>
       
       <div className="overflow-hidden">
-        <div ref={headerRef}>
-          <Header />
-        </div>
+        <Header />
+        
+        <div ref={headerRef} className="h-20" />
         
         <iframe 
           ref={iframeRef}
