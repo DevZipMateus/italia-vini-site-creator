@@ -17,7 +17,7 @@ const Vitrine = () => {
           <Header />
         </header>
         
-        <main className="flex-1 w-full overflow-hidden">
+        <main className="flex-1 w-full overflow-hidden pt-20">
           <iframe 
             src="https://v4.egestor.com.br/vitrine/?s=italiavini " 
             className="w-full h-full border-0"
