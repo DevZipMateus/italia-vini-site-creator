@@ -37,6 +37,16 @@ const Hero = () => {
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold shadow-elegant min-w-[200px]"
               asChild
             >
+              <a href="#vitrine">
+                Ver Vitrine
+              </a>
+            </Button>
+            <Button 
+              size="lg"
+              variant="outline"
+              className="bg-primary-foreground/10 text-primary-foreground border-primary-foreground/60 hover:bg-primary-foreground hover:text-primary font-semibold backdrop-blur-sm min-w-[200px]"
+              asChild
+            >
               <a href="https://wa.me/5511996489994" target="_blank" rel="noopener noreferrer">
                 Fale Conosco
               </a>
