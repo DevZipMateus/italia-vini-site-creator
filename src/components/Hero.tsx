@@ -21,8 +21,8 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 z-10 text-center animate-fade-in">
         <div className="max-w-4xl mx-auto">
-          <h1 className="font-serif text-5xl md:text-7xl font-bold text-primary-foreground mb-6 text-balance">
-            ITALIA VINI
+          <h1 className="font-logo text-5xl md:text-7xl font-bold text-primary-foreground mb-6 text-balance">
+            Italia Vini
           </h1>
           <h2 className="text-xl md:text-2xl text-primary-foreground/95 mb-8 font-light max-w-3xl mx-auto text-balance">
             Solo e exclusivamente vinhos italianos selecionados para proporcionar uma experiência autêntica e acessível da verdadeira cultura do vinho de todas as regiões da Itália
@@ -38,7 +38,7 @@ const Hero = () => {
               asChild
             >
               <a href="#vitrine">
-                Ver Vitrine
+                Conheça nossos vinhos
               </a>
             </Button>
             <Button 
