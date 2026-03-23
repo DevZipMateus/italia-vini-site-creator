@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
-import { Link } from "react-router-dom";
+import { ExternalLink, Users } from "lucide-react";
 
 const VitrineSection = () => {
   return (
@@ -33,7 +32,7 @@ const VitrineSection = () => {
                 className="bg-primary hover:bg-primary-glow text-primary-foreground font-semibold shadow-elegant min-w-[240px]"
                 asChild
               >
-              <a href="https://loja.italiavini.com.br/" target="_blank" rel="noopener noreferrer">
+                <a href="https://loja.italiavini.com.br/" target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="mr-2 h-5 w-5" />
                   Compre aqui nossos vinhos
                 </a>
@@ -49,6 +48,29 @@ const VitrineSection = () => {
                 </a>
               </Button>
             </div>
+          </div>
+
+          {/* Clube de Assinantes */}
+          <div className="bg-card rounded-lg shadow-elegant p-8 md:p-12 border border-accent/20 mt-8">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/15 text-accent mb-6">
+              <Users className="h-8 w-8" />
+            </div>
+            <h3 className="font-serif text-2xl md:text-3xl font-bold text-primary mb-4">
+              Faça parte do nosso Clube de Assinantes
+            </h3>
+            <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
+              Receba vinhos italianos selecionados diretamente na sua casa com condições exclusivas para membros do clube.
+            </p>
+            <Button 
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold shadow-elegant min-w-[240px]"
+              asChild
+            >
+              <a href="https://loja.italiavini.com.br/clube" target="_blank" rel="noopener noreferrer">
+                <Users className="mr-2 h-5 w-5" />
+                Assine agora
+              </a>
+            </Button>
           </div>
         </div>
       </div>
