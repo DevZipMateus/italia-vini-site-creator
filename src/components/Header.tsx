@@ -47,7 +47,7 @@ const Header = () => {
     { label: "Sobre", id: "about" },
     { label: "Valores", id: "values" },
     { label: "Vinhos", id: "products" },
-    { label: "Vitrine", id: "/vitrine", isRoute: true },
+    { label: "Compre aqui", id: "https://loja.italiavini.com.br/", isExternal: true },
     { label: "Contato", id: "contact" },
   ];
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-soft" : "bg-background/80 backdrop-blur-sm"}`}>
