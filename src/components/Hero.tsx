@@ -38,7 +38,7 @@ const Hero = () => {
               asChild
             >
               <a href="#vitrine">
-                Ver Vitrine
+                Conheça nossos vinhos
               </a>
             </Button>
             <Button 

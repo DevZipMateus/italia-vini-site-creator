@@ -55,7 +55,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <button onClick={() => handleNavigation("hero")} className="flex items-center gap-3 transition-smooth hover:opacity-80">
             <img src={logo} alt="ITALIA VINI" className="h-48 w-12 object-contain" />
-            <span className="font-serif text-xl font-bold text-primary">ITALIA VINI</span>
+            <span className="font-logo text-2xl text-primary">Italia Vini</span>
           </button>
 
           {/* Desktop Navigation */}

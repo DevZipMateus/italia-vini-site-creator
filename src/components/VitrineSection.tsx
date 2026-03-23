@@ -33,10 +33,10 @@ const VitrineSection = () => {
                 className="bg-primary hover:bg-primary-glow text-primary-foreground font-semibold shadow-elegant min-w-[240px]"
                 asChild
               >
-                <Link to="/vitrine">
+              <a href="https://loja.italiavini.com.br/" target="_blank" rel="noopener noreferrer">
                   <ExternalLink className="mr-2 h-5 w-5" />
-                  Acessar Vitrine Completa
-                </Link>
+                  Compre aqui nossos vinhos
+                </a>
               </Button>
               <Button 
                 size="lg"
