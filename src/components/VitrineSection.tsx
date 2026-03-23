@@ -21,7 +21,7 @@ const VitrineSection = () => {
               Descubra vinhos autênticos de todas as regiões da Itália
             </h3>
             <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-              Nossa vitrine apresenta uma coleção exclusiva de vinhos italianos, 
+              Nosso catálogo apresenta uma coleção exclusiva de vinhos italianos, 
               cada um selecionado pessoalmente pelo Professor Andrea Chiavacci. 
               Explore rótulos únicos de produtores boutique que representam o melhor 
               da tradição vinícola italiana com excelente custo-benefício.
