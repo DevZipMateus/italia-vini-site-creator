@@ -8,7 +8,7 @@ const VitrineSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary mb-4">
-            Nossa Vitrine
+            Conheça nossos vinhos
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
             Explore nossa seleção completa de vinhos italianos cuidadosamente escolhidos
