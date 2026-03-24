@@ -56,7 +56,7 @@ const VitrineSection = () => {
               <Users className="h-8 w-8" />
             </div>
             <h3 className="font-serif text-2xl md:text-3xl font-bold text-primary mb-4">
-              Faça parte do nosso Clube de Assinantes
+              Faça parte do nosso Clube de Assinatura
             </h3>
             <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
               Receba vinhos italianos selecionados diretamente na sua casa com condições exclusivas para membros do clube.
@@ -68,7 +68,7 @@ const VitrineSection = () => {
             >
               <a href="https://loja.italiavini.com.br/clube" target="_blank" rel="noopener noreferrer">
                 <Users className="mr-2 h-5 w-5" />
-                Assine agora
+                Conheça nosso clube
               </a>
             </Button>
           </div>

@@ -1,7 +1,7 @@
 import { Wine, Sparkles, Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+
 import wineCellarImage from "@/assets/wine-cellar.jpg";
 
 const Products = () => {
@@ -78,9 +78,9 @@ const Products = () => {
               className="mt-8 bg-primary hover:bg-primary-glow text-primary-foreground font-semibold shadow-elegant"
               asChild
             >
-              <Link to="/vitrine">
+              <a href="https://loja.italiavini.com.br/" target="_blank" rel="noopener noreferrer">
                 Conheça nossa seleção
-              </Link>
+              </a>
             </Button>
           </div>
         </div>
