@@ -68,7 +68,7 @@ const VitrineSection = () => {
             >
               <a href="https://loja.italiavini.com.br/clube" target="_blank" rel="noopener noreferrer">
                 <Users className="mr-2 h-5 w-5" />
-                Assine agora
+                Conheça nosso clube
               </a>
             </Button>
           </div>

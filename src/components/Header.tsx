@@ -54,6 +54,7 @@ const Header = () => {
     { label: "Valores", id: "values" },
     { label: "Vinhos", id: "products" },
     { label: "Compre aqui", id: "https://loja.italiavini.com.br/", isExternal: true },
+    { label: "Clube de Assinatura", id: "https://loja.italiavini.com.br/clube", isExternal: true },
     { label: "Contato", id: "contact" },
   ];
 

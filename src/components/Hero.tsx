@@ -57,7 +57,7 @@ const Hero = () => {
               className="bg-primary-foreground/10 text-primary-foreground border-primary-foreground/60 hover:bg-primary-foreground hover:text-primary font-semibold backdrop-blur-sm min-w-[200px]"
               asChild
             >
-              <a href="https://www.instagram.com/_chiavacci_andrea?igsh=MXVnd2cxbHRpaXRycg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/italiavinibr/" target="_blank" rel="noopener noreferrer">
                 <Instagram className="mr-2 h-5 w-5" />
                 Instagram
               </a>

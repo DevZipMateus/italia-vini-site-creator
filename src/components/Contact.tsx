@@ -82,7 +82,7 @@ const Contact = () => {
               className="border-primary/60 text-primary hover:bg-primary hover:text-primary-foreground font-semibold min-w-[240px]"
               asChild
             >
-              <a href="https://www.instagram.com/_chiavacci_andrea?igsh=MXVnd2cxbHRpaXRycg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/italiavinibr/" target="_blank" rel="noopener noreferrer">
                 <Instagram className="mr-2 h-5 w-5" />
                 Siga no Instagram
               </a>
